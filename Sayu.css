@@ -1,5 +1,16 @@
 /* Sayu Css Created By Sparki */
 
+/* Important Stuff */
+
+#backgroundImage {
+    background-image: var(--bg) !important;
+}
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2);
+}
+
 /* Market Listings */
 
 .marketCard {
@@ -461,3 +472,4 @@ a[onclick*="searchMods"] {
 }
 
 /* End Of Css */
+/* Css Edited By Xenavex */
