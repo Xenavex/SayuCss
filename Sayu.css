@@ -1,0 +1,481 @@
+/* Sayu Css Created By Sparki */
+
+/* 
+    Css Modified By
+    IGN : Xenavex | Hatakechop3
+    Discord : 𝓧𝓮𝓷𝓪𝓿𝓮𝔁#6886 
+    Twitter : @Xenavex
+    Website : Bit.ly/Hatakeall
+*/
+
+/* Market Listings */
+
+.marketCard {
+    border-radius: 25px;
+    color: var(--accent) !important;
+}
+
+.marketCard[style*="#292929"] {
+    background-color: #292929;
+}
+
+.marketCard[style*="#ed4242"] {
+    background-color: #ed4242;
+}
+
+.marketCard[style*="#E040FB"] {
+    background-color: #E040FB;
+}
+
+.marketCard[style*="#FBC02D"] {
+    background-color: #FBC02D;
+}
+
+.marketCard[style*="#2196F3"] {
+    background-color: #2196F3;
+}
+
+.marketCard[style*="#b2f252"] {
+    background-color: #b2f252;
+}
+
+.itemOwn {
+    color: var(--accent);
+}
+
+.marketImg,
+.marketImgD,
+.marketImgC {
+    image-rendering: pixelated;
+}
+
+.marketPrice {
+    color: #fff;
+    background-color: var(--accent);
+}
+
+.isAnim {
+    color: var(--accent);
+}
+
+.cardActions {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition-duration: 0.45s;
+    backdrop-filter: blur(10px);
+}
+
+.cardActionSep,
+.cardActionSepVert,
+.cardAction[onclick*="shareListing"] {
+    display: none !important;
+}
+
+/* Top Hud */
+
+#navBar,
+.bigMenTabs,
+#chatScroller,
+#popupBack {
+    background-color: transparent !important;
+}
+
+#profileLogin {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none;
+    color: var(--accent);
+}
+
+#profileLogin:hover {
+    transform: scale(1);
+    color: #fff;
+}
+
+#searchPInput {
+    background-color: transparent;
+    color: #fff !important;
+    position: relative !important;
+    top: -5% !important;
+    font-size: 20px !important;
+}
+
+#searchPInput::placeholder {
+    color: var(--accent);
+}
+
+#searchBtn {
+    background-color: transparent !important;
+    color: var(--accent);
+    position: absolute;
+    font-size: 20px !important;
+    top: 8% !important;
+    transition-duration: 0.25s;
+}
+
+#searchBtn:hover {
+    color: #fff;
+    transition-duration: 0.20s;
+}
+
+#navTitle {
+    color: var(--accent);
+    position: relative;
+    left: 43.5% !important;
+}
+
+#hubBox {
+    background-color: #b2f25200;
+    color: #fff;
+    font-size: 35px;
+    margin-left: -0.8% !important;
+    display: block var(--display) !important;
+}
+
+.material-icons.mic1 {
+    color: var(--accent);
+}
+
+.chatBlobImg,
+.chatBlobIcn {
+    border: 0cm !important;
+}
+
+#profileName {
+    font-size: 30px !important;
+}
+
+#profileKR {
+    font-size: 17px !important;
+}
+
+#navButtons {
+    position: relative !important;
+    left: 86% !important;
+    top: -50%;
+}
+
+/* Global Section */
+
+#loadMessage div {
+    color: var(--accent) !important;
+}
+
+.centerHolder,
+#marketHolder {
+    bottom: 50px !important;
+}
+
+.feedTab {
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--accent);
+    transition-duration: 0.25s;
+}
+
+.feedTab .material-icons {
+    color: var(--accent);
+    transition-duration: 0.25s;
+}
+
+.feedTab:hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.feedTab:hover .material-icons {
+    color: #fff;
+}
+
+a,
+.postLink span,
+.postTime,
+.postSubInfo,
+.postResRoD,
+.postResRoD span,
+.postResRo {
+    color: var(--accent) !important;
+}
+
+.postResRo,
+.postResRoD {
+    border-bottom: none;
+}
+
+.shareBtnHol,
+.follBtnGiv {
+    background-color: transparent !important;
+    color: var(--accent);
+    transition-duration: 0.25s;
+}
+
+.shareBtnHol:hover,
+.follBtnGiv:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    transition-duration: 0.25s;
+}
+
+.likesHolder,
+.likesHolder span {
+    color: var(--accent) !important;
+}
+
+.postContent [style="overflow-x:hidden;"] {
+    color: var(--accent) !important;
+}
+
+.krGivFol {
+    color: var(--accent);
+}
+
+.krGivPost,
+.krGivPost span,
+.imgTextO {
+    color: var(--accent) !important;
+}
+
+.bigMenTab {
+    color: var(--accent) !important;
+    border-bottom: none !important;
+}
+
+.bigMenTab:hover {
+    color: #fff !important;
+    transform: scale(1.1) !important;
+    transition-duration: 0.5s;
+}
+
+/* Leaderboards */
+
+.leaderNav2 {
+    background-color: transparent;
+}
+
+.leaderBtn2 {
+    background-color: var(--accent) !important;
+    color: #fff;
+    transition-duration: 0.25s;
+}
+
+.leaderBtn2:hover {
+    transform: scale(1.1);
+}
+
+#leaderHolder #leaderList .scrollItem .floatR {
+    color: var(--accent);
+}
+
+#leaderHolder #leaderList .scrollItem .floatR:before {
+    content: 'Lvl ';
+}
+
+#leaderHolder #leaderList .scrollItem .leaderText .material-icons {
+    color: var(--accent) !important;
+}
+
+#leaderList .scrollItem div {
+    color: var(--accent) !important;
+}
+
+.lName {
+    color: var(--accent);
+}
+
+/* Display None Spam */
+
+#onetrust-consent-sdk,
+.rnkIcon,
+#aHolder,
+#steamDB,
+#editrDB,
+#androidDB,
+.statusBlob,
+div.terms,
+#iosDB,
+#rightABox,
+#leftYTBox,
+#rightFollBox,
+#profileImg,
+#leftABox,
+#editorDB {
+    display: none !important;
+}
+
+/* Others */
+
+/* Adjusts the Position of The Settings Button */
+.material-icons.terms {
+    display: inline-block !important;
+    color: var(--accent) !important;
+    margin-top: 11px !important;
+    top: 3px !important;
+    transform: scale(1.45);
+    left: 53.7%;
+    position: relative;
+}
+
+.material-icons.terms:hover {
+    transform: scale(1.7);
+    text-decoration: none !important;
+}
+
+/* Custom Loading Animation */
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ring:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid var(--accent);
+    border-color: var(--accent) transparent var(--accent) transparent;
+    animation: lds-ring 1.2s infinite;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    50% {
+        transform: rotate(900deg);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    100% {
+        transform: rotate(1800deg);
+    }
+}
+
+.lds-ring div {
+    visibility: hidden;
+}
+
+/* Buttons & Smol Stuff */
+.blueLink {
+    color: var(--accent) !important;
+}
+
+#marketSearchB,
+.leaderBtn {
+    background-color: transparent !important;
+    color: var(--accent) !important;
+    transition-duration: 0.5s;
+}
+
+#marketSearchB:hover,
+.leaderBtn:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+#m_stats,
+#m_blackm,
+#m_stats:hover {
+    background-color: transparent !important;
+    transition-duration: 0.25s;
+}
+
+#m_stats:hover,
+#m_blackm:hover {
+    transform: scale(1.05);
+    transition-duration: 0.25s;
+}
+
+#m_blackm:hover {
+    opacity: 1;
+}
+
+#invTrack,
+#invValue {
+    background-color: var(--accent);
+    color: #fff;
+}
+
+#invSortB {
+    background-color: transparent !important;
+    color: var(--accent);
+    transition-duration: 0.25s;
+}
+
+#invSortB:hover {
+    transform: scale(1.05);
+}
+
+#marketList [style="font-size:20px;margin-top:20px;color:#fff"] {
+    color: var(--accent) !important;
+}
+
+a[onclick*="searchMaps"] {
+    background-color: transparent !important;
+    color: var(--accent) !important;
+}
+
+a[onclick*="searchMods"] {
+    background-color: transparent !important;
+    color: var(--accent) !important;
+}
+
+#searchInput {
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+}
+
+#searchInput::placeholder {
+    color: var(--accent);
+}
+
+.mapListItem [style="margin-top:1px;display: block;color: rgba(0,0,0,0.2);font-size: 15px;text-align: left;"],
+.click {
+    color: var(--accent) !important;
+}
+
+.mapListItem {
+    background-color: rgb(255 255 255);
+}
+
+#itemCategory,
+#itemRarity,
+#itemWeapon,
+#itemCosm,
+#itemSortOther,
+#itemFilterInput,
+#itemCount {
+    color: #fff;
+    background-color: var(--accent) !important;
+}
+
+#itemFilterInput::placeholder {
+    color: #fff;
+}
+
+.chatListSep {
+    border-bottom: none !important;
+}
+
+/* Extends The Listings till the Bottom */
+#marketHolder {
+    bottom: 15px !important;
+}
+
+/* END */
+
+/* Sayu Css Created By Sparki */
+
+/* 
+    Css Modified By
+    IGN : Xenavex | Hatakechop3
+    Discord : 𝓧𝓮𝓷𝓪𝓿𝓮𝔁#6886 
+    Twitter : @Xenavex
+    Website : Bit.ly/Hatakeall
+*/
